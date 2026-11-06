@@ -1,0 +1,38 @@
+# Dependencies / builds
+node_modules/
+dist/
+
+# Operation data / credentials / database / backups
+data/
+data-*/
+backups/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+initial-access.json
+auth-config.json
+staff-keys.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local output / logs
+artifacts/
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+
+*.db
+*.db-*
+*.sqlite3
+*.sqlite3-*
+*.bak
+*.p12
+*.pfx
+.npmrc
+*.csv
+*.zip

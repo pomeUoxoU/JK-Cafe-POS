@@ -1,0 +1,14 @@
+JK-Cafe POS 2026 - Windows 起動
+
+1. ZIPをすべて展開（ZIPの中から直接起動しない）
+2. Node.js 22.16以降をインストール（https://nodejs.org/）
+3. インターネットに接続し、初回だけ setup.cmd をダブルクリック
+4. start.cmd をダブルクリックしてサーバーを起動
+5. PCで http://localhost:3000/ を開く
+
+次回からは start.cmd をダブルクリックするだけです。
+初回に setup.cmd を忘れても、start.cmd が必要なファイルを検出してセットアップを試みます。
+詳しくは docs/setup.md と docs/troubleshooting.md をご覧ください。
+
+・サーバーの黒い画面は使用中ずっと開いておいてください。
+・管理PIN・売上データが入る data/ はGitHubなどで共有しないでください。
